@@ -1,0 +1,29 @@
+body{
+
+    background-color: rgb(15,19,22);
+}
+
+#logo{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    color: rgba(80, 80, 80, 100);
+    font-size: 4em;
+}
+
+h1:hover{
+    transition: all 1s;
+    color: rgba(190, 190, 190, 155);
+    transform: scale(1.01);
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
