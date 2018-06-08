@@ -6,17 +6,27 @@
 
 }
 
-h1{
+h1 {
     color: rgba(120, 120, 130, 100);
     font-size: 4em;
 }
 
-h1:hover, #logo:hover{
+h2 {
+    display: flex;
+    cursor: pointer;
+    align-content: top;
+    justify-content: right;
+    flex-wrap: wrap;
 
-    transition: all 1s;
+    color: rgba(120, 120, 130, 100);
+  }
+
+h1:hover, h2:hover, #logo:hover{
+
+    transition: all .5s;
     color: rgba(220, 220, 250, 150);
-    /*transform: scale(1.02);*/
 }
+
 
 a{
     text-decoration: none;
