@@ -2,8 +2,12 @@
 
     display: flex;
     justify-content: center;
-    opacity: .7;
+    opacity: .8;
+}
 
+.bar{
+  display: flex;
+  justify-content: right;
 }
 
 h1 {
@@ -11,22 +15,26 @@ h1 {
     font-size: 4em;
 }
 
-h2 {
+.topnav, li {
     display: flex;
     cursor: pointer;
-    align-content: top;
-    justify-content: right;
-    flex-wrap: wrap;
 
     color: rgba(120, 120, 130, 100);
+    font-size: 1.2em;
+    display: inline;
+    padding: 8px;
   }
 
-h1:hover, h2:hover, #logo:hover{
+
+h1:hover, h2:hover, #logo:hover, li:hover{
 
     transition: all .5s;
     color: rgba(220, 220, 250, 150);
 }
 
+nav {
+    display: block;
+}
 
 a{
     text-decoration: none;
