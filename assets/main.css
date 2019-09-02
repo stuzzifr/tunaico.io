@@ -1396,7 +1396,7 @@ section {
    }
 
    .vertical-bar{
-     width: 15%
+    display: none;
    }
 
    .shower-down3{
@@ -1404,8 +1404,18 @@ section {
      opacity: 0;
    }
 
+  .mainn{
+    margin-left: -3%;
+    margin-top: -18%;
+    margin-bottom: -11%;
+    margin-right: 0px;
 
+  }
 
+  .telegram{
+    top: 3400px;
+    /*display: none;*/
+  }
 
 }
 
@@ -1413,49 +1423,46 @@ section {
 
 @media only screen and (max-width: 400px){
 
-.content div span{
-  font-size: 1rem;
-}
+  .content div span{
+    font-size: 1rem;
+  }
 
-.c-1 h3{
-  font-size: 1.6rem;
-}
+  .c-1 h3{
+    font-size: 1.6rem;
+  }
 
-.c-1 h4{
-  font-size: 1.2rem;
-}
+  .c-1 h4{
+    font-size: 1.2rem;
+  }
 
-h1{
-      font-size: 1.4rem;
-}
-.main h2{
+  h1{
+        font-size: 1.4rem;
+  }
+  .main h2{
 
-      margin-bottom: 40px
-}
+        margin-bottom: 40px
+  }
 
-.main{
-  min-height: 400px;
-}
+  .main{
+    min-height: 400px;
+  } }
 
 
+  #particles-js canvas{
+    height: 400px !important;
+  }
 
-}
+  .header{
+    margin-top: -300px;
+    position: relative;
+    z-index: -1;
+  }
 
-#particles-js canvas{
-  height: 400px !important;
-}
+  .logo-link2{
+    opacity: 0;
+  }
 
-.header{
-  margin-top: -300px;
-  position: relative;
-  z-index: -1;
-}
-
-.logo-link2{
-  opacity: 0;
-}
-
-#pieChart{
-  stroke: rgba(255, 255, 255, .2);
-}
+  #pieChart{
+    stroke: rgba(255, 255, 255, .2);
+  }
 
