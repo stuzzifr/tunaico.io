@@ -51,12 +51,14 @@ div::-webkit-scrollbar {
     position: fixed;
     z-index: 10;
     height: 80px;
+    right: 0;
     width: 100%;
     background-color: rgba(26, 27, 33, .9);
     text-align: right;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+
 }
 
 .langs {
@@ -96,7 +98,7 @@ div::-webkit-scrollbar {
 
 .navbarr i {
     float: right;
-    color: #33a4d0 !important;
+    color: #bca061 !important;
     margin: 0 10px;
     -padding: 10px;
     border-radius: 30px;
@@ -309,6 +311,12 @@ input[type="submit"] {
     color: #17181d;
     background-color: #88898b;
     border: none;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 0px 10px 2px rgba(140,141,145, .4);
+    background-color: rgba(140,141,145, 1);
+    cursor: pointer;
 }
 
 .banner {
@@ -1099,9 +1107,10 @@ footer h6 {
     display: inline-block;
 }
 
-.v-dot:hover {
+.v-dot:hover{
     color: #88898b;
     cursor: pointer;
+    box-shadow: 0px 0px 12px 0px rgba(188, 160, 97, .9);
 }
 
 .vd-holder a {
@@ -1126,14 +1135,15 @@ footer h6 {
     left: 0;
     z-index: 9999;
     text-align: center;
-    padding-top: 35%;
-    padding-top: 10vh;
+    padding-top: 25%;
+
     -display: none;
 }
 
 .preloader img {
-    width: 20%;
-    height: 40%;
+    width: 200px;
+    height: 250px;
+    margin-bottom: -100px
 }
 
 .loader,
@@ -1200,11 +1210,11 @@ footer h6 {
 /*..........................*/ /*..........................*/
 /*..........................*/ /*..........................*/
 /*..........................*/ /*..........................*/
-@media only screen and (min-width: 1000px){
+
+@media only screen and (min-width: 1024px){
+
     .tab,
-    .menu {
-        display: none;
-    }
+    .menu {display: none; }
 }
 
 /*ipad*/ /*ipad*/ /*ipad*/ /*ipad*/ /*ipad*/ /*ipad*/ /*ipad*/
@@ -1214,7 +1224,6 @@ footer h6 {
         width: 100%;
         text-align: center;
     }
-
     .video .row .thevideo {
         width: 100%;
     }
@@ -1268,7 +1277,7 @@ footer h6 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        max-width: 100%;
+        max-width: 75%;
         padding: 0 15%;
         margin-top: 50px;
     }
@@ -1278,9 +1287,10 @@ footer h6 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        max-width: 100%;
+        max-width: 80%;
         padding: 0 15%;
         text-align: center !important;
+        margin: auto;
     }
 
     footer .col-2 {
@@ -1379,13 +1389,16 @@ footer h6 {
     }
 
     img.moveLogo {
-        height: 60px;
-        margin-top: 10px;
+        height: 10%;
+        margin-top: -5px;
+        margin-left: -5px;
     }
 
     .navbarr i {
-        font-size: 2em;
-        margin-top: -9px;
+        font-size: 3em;
+        margin-top: -5px;
+        margin-left: -5px;
+        margin-right: -4%;
     }
 
     input,
@@ -1523,8 +1536,8 @@ footer h6 {
     }
 
     h5 {
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: 25%;
+        margin-left: 25%;
     }
 
     .banner-left {

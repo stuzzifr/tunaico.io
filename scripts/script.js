@@ -1,7 +1,7 @@
 $(document).ready(function(){
   setTimeout(function(){
     $('#preloader').fadeOut(500);
-  }, 3000);
+  }, 500);
 });
 
 var top;
@@ -193,6 +193,8 @@ $(window).scroll( function() {
       .delay(1800)
       .animate({opacity: 1, marginLeft: '20%'}, 1000);
 
+      pie.draw();
+
       }else if($(this).scrollTop() > $("#shower-5").offset().top-500){
         $('.v-dot').css({backgroundColor: '#58595b'});
         $('#vd-5').css({backgroundColor: '#bca061'});
@@ -200,7 +202,7 @@ $(window).scroll( function() {
 
 
 
-    if ($(this).scrollTop() > $("#shower-8").offset().top-790 && !showed[8]){
+    if ($(this).scrollTop() > $("#shower-8").offset().top-830 && !showed[8]){
       $('#shower-8').removeClass('shower-down', 700);
       showed[8] = true;
 
@@ -210,13 +212,13 @@ $(window).scroll( function() {
       $('#title8')
       .css('margin-left', '100%')
       .css('opacity', '0')
-      .delay(1000)
+      .delay(400)
       .animate({opacity: 1, marginLeft: '0%'}, 1000);
 
       $('#sTitle8')
       .css('margin-left', '0%')
       .css('opacity', '0')
-      .delay(1800)
+      .delay(600)
       .animate({opacity: 1, marginLeft: '20%'}, 1000);
 
       $('#particles').delay(800).animate({opacity: .5}, 1050);
@@ -244,19 +246,19 @@ $(window).scroll( function() {
       $('#title6')
       .css('margin-left', '20%')
       .css('opacity', '0')
-      .delay(1000)
+      .delay(800)
       .animate({opacity: 1, marginLeft: '0%'}, 1000);
 
       $('#sTitle6')
       .css('margin-left', '0%')
       .css('opacity', '0')
-      .delay(1800)
+      .delay(800)
       .animate({opacity: 1, marginLeft: '20%'}, 1000);
 
       $('#title6-bis')
       .css('margin-left', '0%')
       .css('opacity', '0')
-      .delay(2000)
+      .delay(800)
       .animate({opacity: 1, marginLeft: '20%'}, 1000);
 
 
