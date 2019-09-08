@@ -174,9 +174,7 @@ a:hover {
     margin-top: 0px;
 }
 
-#logo {
-    z-index: 1;
-}
+
 
 img.moveLogo {
     position: fixed;
@@ -828,6 +826,12 @@ footer h6 {
     transform: scale(1.4);
 }
 
+    #logo {
+        width: 350px;
+        height: auto;
+    }
+
+
 /*section {
   margin-top: 30px;
 }*/
@@ -1377,6 +1381,8 @@ footer h6 {
     }
 
 
+
+
 }
 
 /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/
@@ -1391,12 +1397,12 @@ footer h6 {
         font-size: 1.8em;
     }
 
+
     img.moveLogo {
-        height: 10%;
     }
 
     .navbarr i {
-        font-size: 3em;
+        font-size: 2.5em;
         margin-top: -5px;
         margin-left: -5px;
         margin-right: -4%;
@@ -1582,4 +1588,11 @@ footer h6 {
         .chart-right {
           transform: translate(0px, -50px);
         }
+
+
+           #logo {
+        width: 300px;
+        height: auto;
+    }
+
 }
