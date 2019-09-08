@@ -1144,6 +1144,7 @@ footer h6 {
     width: 200px;
     height: 250px;
     margin-bottom: -100px
+    opacity: .7;
 }
 
 .loader,
@@ -1277,9 +1278,11 @@ footer h6 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        max-width: 75%;
+        max-width: 80%;
         padding: 0 15%;
         margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     footer .col-4,
@@ -1390,8 +1393,6 @@ footer h6 {
 
     img.moveLogo {
         height: 10%;
-        margin-top: -5px;
-        margin-left: -5px;
     }
 
     .navbarr i {
@@ -1417,6 +1418,11 @@ footer h6 {
 
     .content div span {
         font-size: 1rem;
+    }
+
+    .video .col-5{
+        max-width: 95%;
+
     }
 
     .slide h1 {

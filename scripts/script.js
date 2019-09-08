@@ -68,12 +68,11 @@ $('#sTitle1')
 }, 1000);
 
 
-
 $('.col-5')
-.css('left', '500px')
+.css('left', '100%')
 .css('opacity', '0')
 .delay(1200)
-.animate({opacity: 1, left: '0px'}, 1000);
+.animate({opacity: 1, left: '0%'}, 1000);
 
 $('.col-4')
 .css('left', '-500px')
