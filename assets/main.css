@@ -160,7 +160,7 @@ a:hover {
     font-size: 1.5em;
     font-size: 1.8em;
     margin-top: 30px;
-    margin: 0px 5% 100px 5%;
+    /*margin: 0px 5% 100px 5%;*/
     color: white;
     color: #284157;
 }
@@ -399,7 +399,8 @@ h1 {
     font-size: 2.4em;
     font-weight: 400;
     margin-bottom: 30px;
-    margin-left: 20%;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     width: 60%;
     margin-top: -2em;
     color: #88898b;
@@ -1412,7 +1413,7 @@ footer h6 {
     .slide h2 {
         font-size: 2.2em;
         margin-top: -1em;
-        margin-left: 10%;
+        margin-left: 10% !important;
         width: 80%;
     }
 

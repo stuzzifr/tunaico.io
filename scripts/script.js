@@ -58,11 +58,15 @@ $('#title1')
 .delay(500)
 .animate({opacity: 1, paddingLeft: '0px'}, 1000);
 
+
 $('#sTitle1')
-.css('margin-left', '-10%')
+.css('margin-left', '-20%')
 .css('opacity', '0')
 .delay(1000)
-.animate({opacity: 1, marginLeft: '20%'}, 1000);
+.animate({opacity: 1,
+  marginLeft: '20%',
+}, 1000);
+
 
 
 $('.col-5')
@@ -173,10 +177,9 @@ $(window).scroll( function() {
       $('#vd-5').css({backgroundColor: '#bca061'});
 
       $('.chart-right')
-      // .css('font-size', '0%')
       .css('opacity', '0')
       .delay(1200)
-      .animate({opacity: 1.0, fontSize: '100%'}, 2000);
+      .animate({opacity: 1.0}, 2000);
 
        $('#title5')
       .css('margin-left', '100%')
