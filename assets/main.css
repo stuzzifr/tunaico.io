@@ -792,7 +792,7 @@ footer h6 {
     margin-left: 0%;
     width: 40%;
     padding: 0px;
-    height: 1900px;
+    height: 2000px;
     background-color: rgba(72,72,90,0.1);
     color: #aaa;
     float: left;
@@ -807,7 +807,7 @@ footer h6 {
     padding: 20px;
     height: 630px;
     background-color: rgba(72,72,90,0.1);
-    color: #aaa;
+    color: rgba(106,107,115, 1);
     margin-top: 0px;
     margin-bottom: 50px;
     font-weight: 700;
@@ -819,11 +819,6 @@ footer h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-#pieChart {
-    margin: auto;
-    transform: scale(1.4);
 }
 
     #logo {
@@ -1212,6 +1207,40 @@ footer h6 {
     margin-bottom: -40%;
 }
 
+#container {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    transform: scale(1.2);
+}
+
+caption {
+    padding-bottom: 15px;
+    font-family: 'Verdana';
+    font-size: 1.2em;
+    color:#555;
+}
+
+table {
+    font-family: 'Verdana';
+    font-size: 12pt;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 2px auto;
+    text-align: center;
+    width: 100%;
+}
+
+table tr:nth-child(odd) {
+  background-color: #aaaa;
+}
+
+
+.highcharts-background{
+    fill = "444444";
+}
+
+
 /*..........................*/ /*..........................*/
 /*..........................*/ /*..........................*/
 /*..........................*/ /*..........................*/
@@ -1220,6 +1249,9 @@ footer h6 {
 
     .tab,
     .menu {display: none; }
+
+
+
 }
 
 /*ipad*/ /*ipad*/ /*ipad*/ /*ipad*/ /*ipad*/ /*ipad*/ /*ipad*/
@@ -1332,7 +1364,27 @@ footer h6 {
     .telegram {
         padding-top: 88%;
     }
+
+    .chart-right {
+        font-size: 90%;
+        margin-bottom: auto;
+    }
+
+#container {
+    transform: scale(1);
 }
+
+
+}
+
+/*@media only screen and (max-width: 907px){
+
+
+    #shower-8 {
+        margin-top: 70%;
+        margin-bottom: -50%;
+    }
+}*/
 
 @media only screen and (max-width: 897px){
     #shower-4 {
@@ -1352,8 +1404,10 @@ footer h6 {
     input,
     textarea,
     select {
-        width: 70%;
+        width: 40%;
     }
+
+
 
     input[type="submit"] {
         width: 25%;
@@ -1366,18 +1420,18 @@ footer h6 {
     }
 
     #shower-8 {
-        margin-top: 70%;
+        margin-top: 90%;
         margin-bottom: -50%;
     }
 
     .chart-right {
-        width: 30%;
+        width: 40%;
         font-size: .7em;
         height: 20%;
         margin-top: -1em;
         text-align: center;
         padding: 4px;
-        font-size: 60%;
+        font-size: 70%;
     }
 
 
@@ -1389,6 +1443,7 @@ footer h6 {
 /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/
 /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/ /*phone*/
 @media only screen and (max-width: 640px){
+
     .av2 {
         margin-left: 5% !important;
     }
@@ -1508,8 +1563,8 @@ footer h6 {
         opacity: 0;
     }
 
-    #pieChart {
-        stroke: rgba(255, 255, 255, .2);
+    #container {
+        /*stroke: rgba(255, 255, 255, .2);*/
         transform: scale(.8);
         margin-top: -6em;
         transform: scale(0.9);
@@ -1581,12 +1636,13 @@ footer h6 {
     }
 
     #shower-8 {
-        margin-top: 40%;
+        margin-top: 50%;
     }
 
 
         .chart-right {
           transform: translate(0px, -50px);
+          width: 50%;
         }
 
 
@@ -1596,3 +1652,9 @@ footer h6 {
     }
 
 }
+
+
+/*pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie*/
+/*pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie*/
+/*pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie pie*/
+
